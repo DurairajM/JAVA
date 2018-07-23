@@ -1,0 +1,116 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package ex8;
+
+/**
+ *
+ * @author Durairaj
+ */
+public class Ex8 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+	int i,j;
+	for(i=1;i<=5;i++)
+	{
+		for(j=1;j<=5;j++)
+		{if((i==1&&j==5)||(i==2&&j==5)||(i==4&&j==5)||(i==3&&j==5)||i==5)
+			System.out.print("J");
+			else
+			{
+				System.out.print(" ");     
+			}
+			/*if((i==5&&j==2)||(i==4&&j==1))
+			{
+				printf("J");
+			}
+			
+		   	if(i==5&&j==5)
+			{
+				printf("*");   
+			}
+			//if remove this p is displayed
+			if(i==4||j==5||i==5)
+			{
+				printf("\b");
+			}*/
+			
+		}
+		System.out.println();
+	}
+		for(i=1;i<=5;i++)
+	{
+		for(j=1;j<=5;j++)
+		{if(i==1||j==1||i==3||j==5)
+			System.out.print("a");
+			else
+			{
+				System.out.print(" ");     
+			}
+		   	/*if(i==5&&j==5)
+			{
+				printf("*");   
+			}
+			//if remove this p is displayed
+			if(i==4||j==5||i==5)
+			{
+				printf("\b");
+			}*/
+			
+		}
+	      System.out.println();
+	}
+		for(i=1;i<=5;i++)
+	{
+		for(j=1;j<=9;j++)
+		{if((i==1&&(j==1||j==9))||(i==2&&(j==2||j==8))||(i==3&&(j==3||j==7))||(i==4&&(j==4||j==6))||(i==5&&j==5))
+			System.out.print("v");
+			else
+			{
+				System.out.print(" ");     
+			}
+		   	/*if(i==5&&j==5)
+			{
+				printf("*");   
+			}
+			//if remove this p is displayed
+			if(i==4||j==5||i==5)
+			{
+				printf("\b");
+			}*/
+			
+		}
+		System.out.println();
+	}
+		for(i=1;i<=5;i++)
+	{
+		for(j=1;j<=5;j++)
+		{if(i==1||j==1||i==3||j==5)
+			System.out.print("a");
+			else
+			{
+				System.out.print(" ");     
+			}
+		   	/*if(i==5&&j==5)
+			{
+				printf("*");   
+			}
+			//if remove this p is displayed
+			if(i==4||j==5||i==5)
+			{
+				printf("\b");
+			}*/
+			
+		}
+		System.out.println();
+	}
+	
+	//return 0;
+}
+    }
